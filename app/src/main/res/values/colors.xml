@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4E76FC</color>
+    <color name="secondary">#4E76FC</color>
+
+    <!-- [START] Группа Text -->
+    <color name="textPrimary">#050507</color>
+    <color name="textSecondary">#767679</color>
+    <color name="textThree">#BABABE</color>
+    <color name="textFour">#FFFFFF</color>
+    <color name="textAccent">#4E76FC</color>
+    <color name="textAccentHover">#3664FC</color>
+    <color name="textAccentPressed">#1D50FB</color>
+    <color name="textAccentVisited">#0437E2</color>
+    <color name="textPrimaryInverse">#E6E9F0</color>
+    <color name="textError">#F6514C</color>
+    <color name="textErrorCode">#F6514C</color>
+    <color name="textAttention">#FF9500</color>
+    <color name="textSuccess">#44BF78</color>
+    <color name="textDisabled">#AAAAAD</color>
+    <color name="textDisabledAccent">#A4B9FD</color>
+    <color name="textStaticWhite">#FFFFFF</color>
+    <color name="textDisabledStaticWhite">#E9E9E9</color>
+    <color name="textStaticBlack">#050507</color>
+    <!-- [END] Группа Text -->
+
+    <!-- [START] Группа Elements -->
+    <color name="elementsPrimary">#050507</color>
+    <color name="elementsSecondary">#767679</color>
+    <color name="elementsThree">#B8B8BC</color>
+    <color name="elementsFour">#E6E6EA</color>
+    <color name="elementsFive">#F2F2F6</color>
+    <color name="elementsSix">#DADADE</color>
+    <color name="elementsSeven">#FFF</color>
+    <color name="elementsEight">@android:color/transparent</color>
+    <color name="elementsAccent">#4E76FC</color>
+    <color name="elementsAccentHover">#3664FC</color>
+    <color name="elementsAccentPressed">#1D50FB</color>
+    <color name="elementsAccentVisited">#0437E2</color>
+    <color name="elementsError">#F6514C</color>
+    <color name="elementsErrorHoverPressed">#EA433E</color>
+    <color name="elementsAttention">#FB9130</color>
+    <color name="elementsSuccess">#3AA165</color>
+    <color name="elementsStaticBlack">#050507</color>
+    <color name="elementsStaticWhite">#FFFFFF</color>
+    <color name="elementsDisabledStaticWhite">#E9E9E9</color>
+    <color name="elementsDivider">#E6E6EA</color>
+    <color name="elementsDisabled">#AAAAAD</color>
+    <color name="elementsDisabledAccent">#A4B9FD</color>
+    <color name="elementsTabbar">#717278</color>
+    <!-- [END] Группа Elements -->
+
+    <!-- [START] Группа Background -->
+    <color name="backgroundPrimary">#FFFFFF</color>
+    <color name="backgroundPrimaryGrey">#F2F2F6</color>
+    <color name="backgroundSecondary">#E7E9EE</color>
+    <color name="backgroundDesktop">#FFF</color>
+    <color name="backgroundFour">#49494C</color>
+    <color name="backgroundFive">#3C3C3E</color>
+    <color name="backgroundSix">#2E2E30</color>
+    <color name="backgroundSeven">#DADADE</color>
+    <color name="backgroundEight">#CC363B4A</color>
+    <color name="backgroundAccent">#4E76FC</color>
+    <color name="backgroundAccentPressed">#1D50FB</color>
+    <color name="backgroundAccentHover">#3664FC</color>
+    <color name="backgroundError">#FFE9E9</color>
+    <color name="backgroundErrorDark">#F25A55</color>
+    <color name="backgroundSelected">#F0F4FF</color>
+    <color name="backgroundIdentificationScreen">#F0F4FF</color>
+    <color name="backgroundSelectedTwo">#EBF2FF</color>
+    <color name="backgroundDarkOverlay">#66000000</color>
+    <color name="backgroundLightOverlay">#263C3C3E</color>
+    <color name="backgroundMiddleOverlay">#59000000</color>
+    <color name="backgroundOverlayWhite">#BFFFFFFF</color>
+    <color name="backgroundClear">#00000000</color>
+    <!-- backgroundShimmer - выставлено #2E2E30. Alpha 10% применяется в стиле -->
+    <color name="backgroundShimmer">#2E2E30</color>
+    <color name="backgroundFadeWhite">#FFF</color>
+    <color name="backgroundFadeGrey">#F2F2F6</color>
+    <color name="backgroundDisabled">#DBDBE0</color>
+    <color name="backgroundDisabledAdditional">#4E76FC</color>
+    <color name="backgroundDisabledAdditionalBlue">#F7F9FF</color>
+    <color name="backgroundDisabledAccent">#A4B9FD</color>
+    <color name="backgroundDisabledBlack">#D5D5D6</color>
+    <color name="backgroundDisabledSelected">#F7F9FF</color>
+    <color name="backgroundPrimaryBlack">#2E2E30</color>
+    <!--На рассмотрение в ДС-->
+    <color name="backgroundThree">#F6F7F9</color>
+    <color name="backgroundThree_70">#B3F6F7F9</color> <!--удалить?-->
+    <color name="backgroundPrimary_94">#F0FFFFFF</color> <!--удалить?-->
+    <color name="backgroundRed">#FF7373</color>
+    <!-- [END] Группа Background -->
+
+    <!-- [START] Группа Special -->
+    <color name="specialSkyUltraLight">#E8F5FF</color>
+    <color name="specialBlueUltraLight">#E5EFFF</color>
+    <color name="specialIndigoUltraLight">#EDEAFF</color>
+    <color name="specialPurpleUltraLight">#F5E7FF</color>
+    <color name="specialLilacUltraLight">#FBE5F9</color>
+    <color name="specialPinkUltraLight">#FFE5EB</color>
+    <color name="specialOrangeUltraLight">#FFE8DE</color>
+    <color name="specialYellowUltraLight">#FFF6E0</color>
+    <color name="specialBurgundyUltraLight">#EBE0E4</color>
+    <color name="specialSkyDark">#60B5FF</color>
+    <color name="specialSky">#7DC8FF</color>
+    <color name="specialSkyLight">#B2DEFF</color>
+    <color name="specialBlueDark">#264FBE</color>
+    <color name="specialBlue">#4E76FC</color>
+    <color name="specialBlueLight">#BDD7FE</color>
+    <color name="specialIndigoDark">#4A3D9B</color>
+    <color name="specialIndigo">#7463E2</color>
+    <color name="specialIndigoLight">#D2CBFE</color>
+    <color name="specialPurpleDark">#663689</color>
+    <color name="specialPurple">#A35FD5</color>
+    <color name="specialPurpleLight">#E6C3FF</color>
+    <color name="specialLilacDark">#80327A</color>
+    <color name="specialLilac">#CA4FC0</color>
+    <color name="specialLilacLight">#F5BEF0</color>
+    <color name="specialPinkDark">#A5304E</color>
+    <color name="specialPink">#FF4C63</color>
+    <color name="specialPinkLight">#FEBFCD</color>
+    <color name="specialOrangeDark">#E55839</color>
+    <color name="specialOrange">#FE613F</color>
+    <color name="specialOrangeLight">#FEC5AD</color>
+    <color name="specialYellowDark">#F9C042</color>
+    <color name="specialYellow">#FFCB57</color>
+    <color name="specialYellowLight">#FFDB84</color>
+    <color name="specialGold">#BDA980</color>
+    <color name="specialGraphite">#2A3249</color>
+    <color name="specialGray">#586078</color>
+    <color name="specialLightGray">#868EA8</color>
+    <color name="specialWhite">#FFFFFF</color>
+    <color name="specialBurgundyDark">#2E171E</color>
+    <color name="specialBurgundy">#562737</color>
+    <color name="specialBurgundyLight">#7B324B</color>
+    <color name="specialPremiumGraphite">#373746</color>
+    <color name="specialPremiumGrey">#5F5F6E</color>
+    <color name="specialPremiumLightGrey">#8D8D9C</color>
+    <!-- [END] Группа Special -->
+
+    <!-- [START] Группа Private -->
+    <color name="privateBlack">#1E222E</color>
+    <color name="privateLuxe">#2B3144</color>
+    <color name="privateGray">#696E82</color>
+    <color name="privateAquamarine">#5A7390</color>
+    <color name="privateHeavenly">#C4E1F4</color>
+    <color name="privateDarkCloud">#6C6E71</color>
+    <color name="privateGold">#D6C6B1</color>
+    <color name="privateBrown">#856955</color>
+    <!-- [END] Группа Private -->
+
+    <!--custom-->
+    <color name="colorStatusBar">#4D000000</color>
+    <color name="colorNavigationBar">#4D000000</color>
+    <color name="fileUploadItemFade">#959598</color>
+
+    <color name="default_qr_scanner_window_color">#E6343D57</color>
+</resources>
