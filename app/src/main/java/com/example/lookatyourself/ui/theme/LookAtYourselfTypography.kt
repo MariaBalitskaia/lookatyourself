@@ -55,6 +55,15 @@ data class LookAtYourselfTypography(
     ),
     val title0Semibold: TextStyle = title0SemiboldDefault.toTextStyle(),
 
+    val title0BoldDefault: TextStyleThemeDefault = TextStyleThemeDefault(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Bold,
+        fontSize = 32.sp,
+        lineHeight = 36.sp,
+        letterSpacing = 0.33.sp,
+    ),
+    val title0Bold: TextStyle = title0BoldDefault.toTextStyle(),
+
     val title3SemiboldDefault: TextStyleThemeDefault = TextStyleThemeDefault(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,

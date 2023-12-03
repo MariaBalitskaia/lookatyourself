@@ -1,6 +1,7 @@
 package com.example.lookatyourself.screens
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -23,11 +24,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.example.lookatyourself.R
 import com.example.lookatyourself.ui.theme.LookAtYourselfTheme
 
 @Composable
-fun StatusScreen() {
+fun StatusScreen(navHostController: NavHostController) {
     Scaffold(
         modifier = Modifier
             .windowInsetsPadding(WindowInsets.systemBars),
@@ -39,10 +42,11 @@ fun StatusScreen() {
                 .padding(it)
                 .padding(16.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center,
         ) {
             Box(
                 modifier = Modifier
-                    .fillMaxWidth()
+                    .fillMaxWidth(),
             ) {
                 Image(
                     modifier = Modifier
@@ -54,7 +58,7 @@ fun StatusScreen() {
             }
             Spacer(
                 modifier = Modifier
-                    .height(16.dp)
+                    .height(16.dp),
             )
             Text(
                 modifier = Modifier.fillMaxWidth(),
@@ -64,11 +68,14 @@ fun StatusScreen() {
             )
             Spacer(
                 modifier = Modifier
-                    .height(16.dp)
+                    .height(16.dp),
             )
             Button(
-                onClick = { /*TODO*/ }) {
-                Text(text = "Вернуться в опросу")
+                onClick = {
+                    navHostController.popBackStack()
+                },
+            ) {
+                Text(text = "Хорошо")
             }
         }
     }
@@ -77,5 +84,5 @@ fun StatusScreen() {
 @Preview
 @Composable
 private fun StatusScreenPreview() = LookAtYourselfTheme {
-    StatusScreen()
+    StatusScreen(rememberNavController())
 }

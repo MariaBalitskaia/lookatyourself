@@ -3,7 +3,6 @@ package com.example.lookatyourself.ui.theme
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.ripple.rememberRipple
-import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
@@ -34,7 +33,7 @@ fun LookAtYourselfTheme(
             surface = LookAtYourselfTheme.colors.bgPrimary,
             background = LookAtYourselfTheme.colors.bgPrimaryGrey,
             error = LookAtYourselfTheme.colors.textError,
-            onPrimary = LookAtYourselfTheme.colors.textStaticWhite
+            onPrimary = LookAtYourselfTheme.colors.textStaticWhite,
         )
 
         val materialColorPalette = lightColorScheme(
@@ -43,7 +42,7 @@ fun LookAtYourselfTheme(
             surface = LookAtYourselfTheme.colors.bgPrimary,
             background = LookAtYourselfTheme.colors.bgPrimaryGrey,
             error = LookAtYourselfTheme.colors.textError,
-            onPrimary = LookAtYourselfTheme.colors.textStaticWhite
+            onPrimary = LookAtYourselfTheme.colors.textStaticWhite,
         )
 
         val materialColors = if (darkTheme) {
@@ -79,5 +78,4 @@ object LookAtYourselfTheme {
         @Composable
         @ReadOnlyComposable
         get() = LocalSelfButtonColors.current
-
 }
