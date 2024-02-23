@@ -50,7 +50,6 @@ private fun QuestionsScreenBottomSheetContent(
         .fillMaxSize()
         .padding(vertical = 16.dp),
 ) {
-    TextField(value = "qwerty", onValueChange = {})
     Text(
         modifier = Modifier
             .fillMaxWidth()

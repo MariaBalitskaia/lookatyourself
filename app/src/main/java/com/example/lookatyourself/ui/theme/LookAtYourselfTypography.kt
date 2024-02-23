@@ -4,6 +4,8 @@ import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.sp
 
 data class LookAtYourselfTypography(
@@ -270,8 +272,8 @@ private fun TextStyleThemeDefault.toTextStyle() = TextStyle(
     background = this.background,
     textDecoration = this.textDecoration,
     shadow = this.shadow,
-    textAlign = this.textAlign,
-    textDirection = this.textDirection,
+    textAlign = this.textAlign ?: TextAlign.Unspecified,
+    textDirection = this.textDirection ?: TextDirection.Unspecified,
     lineHeight = this.lineHeight,
     textIndent = this.textIndent,
 )
